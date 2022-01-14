@@ -139,4 +139,33 @@ body{
 .gray{
     color: lightgray;
 }
+.see-more{
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px 20px;
+    color: #E02C6D;
+}
+footer{
+    display: flex;
+    height: 180px;
+    background: rgb(10,8,38);
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+.footer-text h2{
+    font-weight: 500;
+}
+.footer-text small{
+    font-weight: 300;
+}
+.footer-icon{
+    margin-top: 15px;
+}
+.footer-icon .icon-gap{
+    margin: 0 7px;
+    padding: 5px;
+    background: rgba(255, 255, 255, 0.13);
+    border-radius: 50%;
+}
 
