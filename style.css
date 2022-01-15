@@ -28,6 +28,9 @@ body{
 .logo-box{
     color: #3A3A3A;
 }
+.logo-box h3{
+    font-size: 25px;
+}
 .button-box{
     display: flex;
     align-items: center;
@@ -61,6 +64,7 @@ body{
 .slidebar-icon{
     display: none;
 }
+
 
 /* ----------------------------*\
         banner-section
@@ -116,7 +120,7 @@ body{
 }
 .carts{
     display: grid;
-    gap: 60px;
+    gap: 50px;
     margin: 0 auto;
     grid-template-columns: repeat(3,1fr);
     align-items: center;
@@ -125,6 +129,7 @@ body{
     box-shadow: 1px 1px 10px rgb(199, 198, 198);
     border-radius: 5px;
     padding: 10px;
+    cursor: pointer;
 }
 .cart img{
     width: 100%;
@@ -154,6 +159,7 @@ body{
     justify-content: flex-end;
     margin: 10px 20px;
     color: #E02C6D;
+    cursor: pointer;
 }
 
 /*-----------------------------*\
@@ -193,6 +199,7 @@ footer{
 }
 .footer-icon{
     margin-top: 15px;
+    cursor: pointer;
 }
 .footer-icon .icon-gap{
     margin: 0 7px;
